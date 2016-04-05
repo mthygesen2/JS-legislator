@@ -1,0 +1,17 @@
+
+  {{#each model.senate as |committee|}}
+    <h3> {{committee.name}} </h3> 
+  {{/each}}
+
+
+{{#if model.subcom}}
+  <h4>Subcommittees:</h4>
+  <ul>
+    {{#each model.subcom as |subcommittee|}}
+      <li> {{subcommittee.name}} <br>
+        Contact: <a href="tel:{{subcommittee.phone}}">{{subcommittee.phone}}</a></li>
+    {{/each}}
+  </ul>
+{{else}}
+  <h4>This committee has no subcommittees</h4>
+{{/if}}
