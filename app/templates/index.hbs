@@ -1,16 +1,5 @@
 {{lookup-form zipLookup="zipLookup"}}
 
+{{house-tile model=model}}
 
-<ul>
-  {{#each model.house as |house|}}
-    <li> {{#link-to 'house' house.committee_id}}{{house.name}}{{/link-to}}
-  </li>
-  {{/each}}
-</ul>
-
-
-<ul>
-  {{#each model.senate as |senate|}}
-    <li> {{#link-to 'senate' senate.committee_id}}{{senate.name}}{{/link-to}} </li>
-  {{/each}}
-</ul>
+{{senate-tile model=model}}

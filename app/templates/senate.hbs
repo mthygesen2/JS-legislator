@@ -1,6 +1,6 @@
 
   {{#each model.senate as |committee|}}
-    <h3> {{committee.name}} </h3> 
+    <h3> {{committee.name}} </h3>
   {{/each}}
 
 
@@ -8,8 +8,7 @@
   <h4>Subcommittees:</h4>
   <ul>
     {{#each model.subcom as |subcommittee|}}
-      <li> {{subcommittee.name}} <br>
-        Contact: <a href="tel:{{subcommittee.phone}}">{{subcommittee.phone}}</a></li>
+      <li> {{subcommittee.name}}</li>
     {{/each}}
   </ul>
 {{else}}

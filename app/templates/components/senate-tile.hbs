@@ -1,0 +1,10 @@
+{{#if isSenateShowing}}
+  <button {{action 'hideSenate'}}>Done</button>
+  <ul>
+    {{#each model.senate as |senate|}}
+      <li> {{#link-to 'senate' senate.committee_id}}{{senate.name}}{{/link-to}} </li>
+    {{/each}}
+  </ul>
+{{else}}
+  <button {{action 'showSenate'}}>Senate Committees</button>
+{{/if}}
