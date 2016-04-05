@@ -1,0 +1,22 @@
+$brand-color: #4351FF;
+
+$brand-font: sans-serif;
+
+$header-color: #aaa;
+
+$button-color: #bbb;
+
+%flex {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+%button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  background-color: $button-color;
+  font-size: 0.8em;
+}

@@ -1,0 +1,39 @@
+.lookup {
+  @extend %flex;
+  form {
+    @extend %flex;
+    label {
+      font-size: 1.3em;
+      margin: 5px 0;
+    }
+    input {
+      margin: 15px 0;
+      height: 25px;
+    }
+  }
+}
+
+
+.houseTile {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  button {
+    margin: 10px;
+  }
+}
+
+.senateTile {
+  display: flex;
+  flex-flow: column;
+  button {
+    margin: 10px;
+    align-self: flex-end;
+  }
+}
+
+.indexButtons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 75px;
+}

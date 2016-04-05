@@ -1,11 +1,13 @@
-{{#if isHouseShowing}}
-  <button {{action 'hideHouse'}}>Done</button>
-  <ul>
-    {{#each model.house as |house|}}
-      <li> {{#link-to 'house' house.committee_id}}{{house.name}}{{/link-to}}
-    </li>
-    {{/each}}
-  </ul>
-{{else}}
-  <button {{action 'showHouse'}}>House Committees</button>
-{{/if}}
+<div class="houseTile">
+  {{#if isHouseShowing}}
+    <button {{action 'hideHouse'}}>Done</button>
+    <ul>
+      {{#each model.house as |house|}}
+        <li> {{#link-to 'house' house.committee_id}}{{house.name}}{{/link-to}}
+      </li>
+      {{/each}}
+    </ul>
+  {{else}}
+    <button {{action 'showHouse'}}>House Committees</button>
+  {{/if}}
+</div>
