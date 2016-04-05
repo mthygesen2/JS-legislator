@@ -1,1 +1,19 @@
 
+
+  {{#each model.house as |committee|}}
+    <h3> {{committee.name}} </h3> <br>
+    <p>Office: {{committee.office}} <br>Contact: <a href="tel:{{committee.phone}}">{{committee.phone}}</a> </p>
+  {{/each}}
+
+
+{{#if model.subcom}}
+  <h4>Subcommittees:</h4>
+  <ul>
+    {{#each model.subcom as |subcommittee|}}
+      <li> {{subcommittee.name}} <br>
+        Contact: <a href="tel:{{subcommittee.phone}}">{{subcommittee.phone}}</a></li>
+    {{/each}}
+  </ul>
+{{else}}
+  <h4>This committee has no subcommittees</h4>
+{{/if}}

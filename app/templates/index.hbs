@@ -3,7 +3,7 @@
 
 <ul>
   {{#each model.house as |house|}}
-    <li> {{house.name}}
+    <li> {{#link-to 'house' house.committee_id}}{{house.name}}{{/link-to}}
   </li>
   {{/each}}
 </ul>
