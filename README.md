@@ -1,7 +1,7 @@
 # Legislator-lookup
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This application is showcasing calling APIs while using Ember. Sunlight Foundation was used for the API. It will grab the committees from the House and Senate along with their subcommittees. 
 
 ## Prerequisites
 
@@ -15,7 +15,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone <https://github.com/mthygesen2/JS-legislator.git>` 
 * change into the new directory
 * `npm install`
 * `bower install`
@@ -38,10 +38,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
