@@ -1,6 +1,6 @@
 # Legislator-lookup
 
-### By: Mao Thygesen and Jeff Seymour
+### By: Mao Thygesen and David Remington
 Legislator Lookup is Ember focused project for Epicodus JavaScript course. The main purpose of this application is to use API requests properly with Ember. The Sunlight Foundation Congress API was used for this project. 
 
 As a user you are able to lookup the legislators by zip code. 
@@ -54,4 +54,4 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 *MIT*
 
-Copyright (c) 2016 **Mao Thygesen and Jeff Seymour*
+Copyright (c) 2016 **Mao Thygesen and David Remington*
