@@ -1,7 +1,10 @@
 # Legislator-lookup
 
-This README outlines the details of collaborating on this Ember application.
-This application is showcasing calling APIs while using Ember. Sunlight Foundation was used for the API. It will grab the committees from the House and Senate along with their subcommittees. 
+### By: Mao Thygesen and Jeff Seymour
+Legislator Lookup is Ember focused project for Epicodus JavaScript course. The main purpose of this application is to use API requests properly with Ember. The Sunlight Foundation Congress API was used for this project. 
+
+As a user you are able to lookup the legislators by zip code. 
+See the list of house and senate committees along with the subcommittees. 
 
 ## Prerequisites
 
@@ -51,4 +54,4 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 *MIT*
 
-Copyright (c) 2016 **_Mao Thygesen_**
+Copyright (c) 2016 **Mao Thygesen and Jeff Seymour*
